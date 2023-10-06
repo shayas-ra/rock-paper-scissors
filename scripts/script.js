@@ -64,18 +64,18 @@ function game() {
   return playRound(playerSelection(), computerSelection());
 }
 
-for (let i = 0; i < 5; i++) {
-  console.log(game());
-}
+// for (let i = 0; i < 5; i++) {
+//   console.log(game());
+// }
 
-if (playerScore > computerScore) {
-  console.log(`Player Score is ${playerScore} || Computer Score is ${computerScore}`);
-  console.log(`Player Wins!`);
-}
-else if (playerScore < computerScore) {
-  console.log(`Player Score is ${playerScore} || Computer Score is ${computerScore}`);
-  console.log(`Computer Wins!`)
-} else {
-  console.log(`Player Score is ${playerScore} || Computer Score is ${computerScore}`);
-  console.log("TIE!!!");
-}
+// if (playerScore > computerScore) {
+//   console.log(`Player Score is ${playerScore} || Computer Score is ${computerScore}`);
+//   console.log(`Player Wins!`);
+// }
+// else if (playerScore < computerScore) {
+//   console.log(`Player Score is ${playerScore} || Computer Score is ${computerScore}`);
+//   console.log(`Computer Wins!`)
+// } else {
+//   console.log(`Player Score is ${playerScore} || Computer Score is ${computerScore}`);
+//   console.log("TIE!!!");
+// }
